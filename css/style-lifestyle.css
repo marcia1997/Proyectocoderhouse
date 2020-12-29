@@ -1,0 +1,145 @@
+/*menu general*/
+
+.menu {
+    font-family: 'font-family:Noto Serif JP', serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: normal;
+    color: black;
+    background-color: #fff3e6;
+    text-align: left;
+    display: inline;
+    padding: 15 px;
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    display: inline-block;
+    position: relative;
+    padding: auto;
+    margin-left: 200px;
+    text-decoration: none;
+}
+
+li a {
+    display: block;
+    color: pink;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: white;
+}
+
+.nav {
+    font-family: 'Meie Script';
+    list-style-type: none;
+    text-align: center;
+    display: inline;
+    padding: 15px;
+    margin: auto;
+}
+
+
+/*general*/
+
+h1 {
+    font-family: 'Meie Script';
+    font-size: 40px;
+    font-style: italic;
+    font-weight: normal;
+    color: black;
+    text-align: center;
+}
+
+p {
+    font-family: 'font-family: 'Noto Serif JP', serif;';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    color: black;
+    text-align: center;
+}
+
+
+/*LIFE STYLE PAGE*/
+
+
+/*top galerry*/
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: white;
+}
+
+
+/*down gallery*/
+
+::before {
+    margin-top: 200px;
+}
+
+.popular {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-around;
+}
+
+.popular img {
+    object-fit: cover;
+    flex: 0 0 auto;
+    margin-left: 0;
+    max-width: 100%;
+    max-height: fit-content;
+}
+
+.cont-gif video {
+    padding: 120px;
+    width: 1200px;
+    object-fit: contain;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}

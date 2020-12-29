@@ -1,0 +1,159 @@
+/*menu general*/
+
+.menu {
+    font-family: 'font-family:Noto Serif JP', serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: normal;
+    color: black;
+    background-color: #fff3e6;
+    text-align: left;
+    display: inline;
+    padding: 15 px;
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    display: inline-block;
+    position: relative;
+    padding: auto;
+    margin-left: 200px;
+    text-decoration: none;
+}
+
+li a {
+    display: block;
+    color: pink;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: white;
+}
+
+.nav {
+    font-family: 'Meie Script';
+    list-style-type: none;
+    text-align: center;
+    display: inline;
+    padding: 15px;
+    margin: auto;
+}
+
+
+/*general*/
+
+h1 {
+    font-family: 'Meie Script';
+    font-size: 40px;
+    font-style: italic;
+    font-weight: normal;
+    color: black;
+    text-align: center;
+}
+
+p {
+    font-family: 'font-family: 'Noto Serif JP', serif;';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    color: black;
+    text-align: center;
+}
+
+
+/*Footer Section*/
+
+.footer {
+    top: 500px;
+    bottom: 600px;
+    float: left;
+}
+
+.footer-logo {
+    position: relative;
+    float: left;
+}
+
+
+/*STORIES PAGE*/
+
+.text-area-popular {
+    background-color: lightblue;
+    width: 20%;
+    margin-left: 800px;
+    margin-top: -200px;
+}
+
+.text-stories {
+    display: inline-block;
+    width: 50%;
+    font-size: 38px;
+    text-align: center;
+}
+
+.text-stories-2 {
+    display: inline;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+/*stories-album*/
+
+* {
+    box-sizing: border-box;
+}
+
+.grid {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 0.8em;
+    color: grey;
+    line-height: 1.4;
+}
+
+.grid {
+    display: grid;
+    grid-auto-flow: column; // display the items in columns only, ie horizontal
+    grid-auto-columns: 90%; // create as many columns as there are items. 90% so we can see next item on the right.
+    grid-gap: 1em;
+    overflow-x: scroll; // scroll only within the grid, not entire page
+    -webkit-overflow-scrolling: touch; // better scrolling on touch
+    padding: 2em 1em;
+    background: white;
+    @media all and (min-width: 600px) {
+        grid-auto-flow: initial; // default: display items in rows and cols
+        grid-template-columns: repeat(auto-fit, minmax(auto, 20em)); // as many columns with max-width of 20em;
+        justify-content: center; // center the items - this is optional
+    }
+    &__figure {
+        display: grid;
+        grid-template-rows: 15em 1fr; // 15em high row for image – value could be whatever
+        grid-gap: 1em;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; // crop image within its cell
+        }
+    }
+}

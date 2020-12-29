@@ -1,0 +1,168 @@
+/*INDEX PAGE*/
+
+.aboutme {
+    font-family: 'font-family: Noto Serif JP', serif;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: normal;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -40%);
+}
+
+.menu {
+    font-family: 'font-family:Noto Serif JP', serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: normal;
+    color: black;
+    background-color: #fff3e6;
+    text-align: left;
+    display: inline;
+    padding: 15 px;
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    display: inline-block;
+    position: relative;
+    padding: auto;
+    margin-left: 200px;
+    text-decoration: none;
+}
+
+li a {
+    display: block;
+    color: pink;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: white;
+}
+
+.nav {
+    font-family: 'Meie Script';
+    list-style-type: none;
+    text-align: center;
+    display: inline;
+    padding: 15px;
+    margin: auto;
+}
+
+
+/*Photo Menu in the home page*/
+
+.banner {
+    position: relative;
+    height: 100%;
+}
+
+.banner img {
+    vertical-align: middle;
+    object-fit: cover;
+    width: 100%;
+    height: 500px;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.gallery:hover {
+    border: 1px solid rgb(255, 251, 251);
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    font-style: italic;
+}
+
+.container-gallery {
+    position: absolute;
+    width: 100%;
+    top: 85%;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*general*/
+
+h1 {
+    font-family: 'Meie Script';
+    font-size: 40px;
+    font-style: italic;
+    font-weight: normal;
+    color: black;
+    text-align: center;
+}
+
+p {
+    font-family: 'font-family: 'Noto Serif JP', serif;';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    color: black;
+    text-align: center;
+}
+
+
+/*Contact Section*/
+
+.contact {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 200px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+textarea {
+    display: block;
+    width: 40%;
+    margin: 20px auto;
+}
+
+.message {
+    display: block;
+    height: 300px;
+}
+
+
+/*Footer Section*/
+
+.footer {
+    top: 500px;
+    bottom: 600px;
+    float: left;
+}
+
+.footer-logo {
+    position: relative;
+    float: left;
+}

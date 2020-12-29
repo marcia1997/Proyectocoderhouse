@@ -1,0 +1,167 @@
+/*menu general*/
+
+.menu {
+    font-family: 'font-family:Noto Serif JP', serif;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: normal;
+    color: black;
+    text-align: left;
+    display: inline;
+    padding: 15 px;
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    display: inline-block;
+    position: relative;
+    padding: auto;
+    margin-left: 200px;
+    text-decoration: none;
+}
+
+li a {
+    display: block;
+    color: pink;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: white;
+}
+
+.nav {
+    font-family: 'Meie Script';
+    list-style-type: none;
+    text-align: center;
+    display: inline;
+    padding: 15px;
+    margin: auto;
+}
+
+
+/*general*/
+
+h1 {
+    font-family: 'Meie Script';
+    font-size: 40px;
+    font-style: italic;
+    font-weight: normal;
+    color: black;
+    text-align: center;
+}
+
+p {
+    font-family: 'font-family: 'Noto Serif JP', serif;';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    color: black;
+    text-align: center;
+}
+
+
+/*Footer Section*/
+
+.footer {
+    top: 500px;
+    bottom: 600px;
+    float: left;
+}
+
+.footer-logo {
+    position: relative;
+    float: left;
+}
+
+
+/*MY GALLLERY PAGE*/
+
+*,
+*::after,
+*::before {
+    margin: 3px;
+    padding: 3px;
+    box-sizing: inherit;
+}
+
+.container {
+    width: 80%;
+    margin: 1rem auto;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 8fr);
+    grid-gap: 1rem;
+}
+
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery_item-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.gallery_item-2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.gallery_item-3 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+
+.gallery_item-4 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 6;
+}
+
+.gallery_item-5 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 9;
+}
+
+.gallery_item-6 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 6;
+    grid-row-end: 9;
+}
+
+
+/*transition page*/
+
+.gallery__img {
+    transition: transform ease-in-out 0.4s;
+}
+
+.gallery__img:hover {
+    transform: scale(1.1);
+}

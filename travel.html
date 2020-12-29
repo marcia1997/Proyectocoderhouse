@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style-travel.css">
+    <link href='https://fonts.googleapis.com/css?family=Meie Script' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">
+
+
+    <title>Little dreammer</title>
+</head>
+
+
+<body>
+    <header>
+        <h1>My Blog</h1>
+    </header>
+    <!--index menu-->
+    <div class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="mygallery.html ">My gallery</a></li>
+            <li><a href="index.html">Contact me</a></li>
+        </ul>
+    </div>
+    </nav>
+    <textarea>#</textarea>
+
+
+    <!--main gallery-->
+    <section>
+        <h2 class="textanimation">Latest publications</h2>
+        <div class="gallery2">
+            <div class="gallery2__item">
+                <img src="https://images.unsplash.com/photo-1606207370326-39c79b5a7030?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80" alt="Img">
+            </div>
+            <div class="gallery2__item">
+                <img src="https://images.unsplash.com/photo-1606207370326-39c79b5a7030?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80" alt="Img">
+            </div>
+            <div class="gallery2__item">
+                <img src="https://images.unsplash.com/photo-1606207370326-39c79b5a7030?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80" alt="Img">
+            </div>
+            <div class="gallery2__item">
+                <img src="https://images.unsplash.com/photo-1606207370326-39c79b5a7030?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80" alt="Img">
+            </div>
+
+            <div class="gallery2__item">
+                <img src="https://images.unsplash.com/photo-1606207370326-39c79b5a7030?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80" alt="Img">
+            </div>
+            <div class="gallery2__item">
+                <img src="https://images.unsplash.com/photo-1606207370326-39c79b5a7030?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80" alt="Img">
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <div class="images">
+
+        <h2 class="textanimation">Popular</h2>
+
+        <div class="popular">
+
+
+
+
+
+
+            <img src="visual\adventures2.jpg" width="600" height="400">
+            <img src="visual\food.jpg" width="600" height="400">
+            <img src="visual\budget.jpg" width="600" height="400">
+            <img src="visual\routes.jfif " width="600" height="400">
+            <img src="visual\tickets.jpg" width="600" height="400">
+            <img src="visual\tickets.jpg" width="600" height="400">
+        </div>
+        <!--Popular-->
+
+
+        <div class="text ">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque aut quam deleniti beatae iusto veritatis quisquam soluta expedita enim eos accusantium possimus molestiae hic amet quos corrupti ut illum minima, fuga, ea magni porro laborum quasi
+                officia? Est molestias natus eum illum expedita ullam repudiandae ea fugiat iste aperiam inventore architecto, qui reiciendis quis eligendi suscipit reprehenderit ipsam facere in quibusdam quidem vero sit quas. Minus libero distinctio
+                ratione, fugiat, architecto sequi neque tenetur, enim natus animi adipisci deserunt mollitia? Blanditiis dignissimos omnis deserunt natus itaque, excepturi optio incidunt aliquid rem, voluptate vero ullam aut quis, modi
+            </p>
+        </div>
+
+        <!--Animation Script-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+        <script>
+            anime.timeline({
+                    loop: true
+                })
+                .add({
+                    targets: '.textanimation .word',
+                    scale: [14, 1],
+                    opacity: [0, 1],
+                    easing: "easeOutCirc",
+                    duration: 800,
+                    delay: (el, i) => 800 * i
+                }).add({
+                    targets: '.textanimation',
+                    opacity: 0,
+                    duration: 1000,
+                    easing: "easeOutExpo",
+                    delay: 1000
+                });
+        </script>
+        <!--Animation Script-->
+
+
+        <section>
+            <footer>
+                <div class="footer ">
+                    <a href="https://www.facebook.com/ ">Facebook</a>
+                    <a href="https://www.instagram.com/ ">Instagram</a>
+                    <a href="https://www.youtube.com/ ">Youtube</a>
+                    <a href="mailto:example@gmail.com ">Email</a>
+                </div>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png " width="100px " height="100px " alt="footer-logo ">
+            </footer>
+
+
+</body>
+
+</html>
